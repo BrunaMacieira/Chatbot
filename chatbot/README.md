@@ -1,0 +1,3 @@
+Esta aplicação de chatbot utiliza Angular, Express.js, Node.js e socket.io e funciona como um FAQ que dá apoio ao programa principal. Este pode ser alterado de acordo com as necessidades do utilizador, mudando os packages js (data.js e socket.js), respondendo a perguntas específicas colocadas. 
+
+Caso ocorra algum problema com o programa, o chatbot-client deve ser compilado com: npm install > ng serve; o chatbot-server deve ser compilado com: npm install > npm run dev > (caso apareça erro) set OPENSSL_CONF= > npm > npm run dev. O erro que poderá ocorrer no chatbot-server deve-se à utilização de Node.js, visto que frameworks como esta e PostreSQL utilizam SSL e podem ter várias misinformations
